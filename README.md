@@ -21,6 +21,7 @@ conda activate ocr
 ```
 conda install theano
 pip install flask h5py keras matplotlib numpy opencv-python
+Note: For compatibility reason, use keras version 2.2.2 by doing pip install keras==2.2.2 which works at the time of writing this. 
 ```
 #### Step 5: Clone OCR and start server
 ```
